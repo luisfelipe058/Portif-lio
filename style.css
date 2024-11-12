@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* transition: 0.2s; */
+}
+
+body{
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header{
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+header button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+.nome{
+    font-size: 25px;
+}
+
+
+section{
+    padding: 20px;
+    margin: 20px auto;
+    height: 100vh;
+
+}
+
+div{
+    width: 50%;
+}
+
+img{
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 4em;
+    /* text-align: center; */
+}
+
+.h2p2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+
+.projeto{
+    background-color: #eaeaea;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 40%;
+    height: 200px;
+    margin-left: 80px;
+    
+}
+
+.projeto2{
+    background-color: #eaeaea;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 40%;
+    height: 200px;
+    margin-left: 56%;
+}
+
+
+/* --------MODO ESCURO-------- */
+
+.dark-theme{
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+.dark-theme header{
+    background-color: #222;
+}
+
+.dark-theme header button{
+    background-color: #444;
+    color: #f5f5f5;
+}
+
+.dark-theme .projeto{
+    background-color: #555;
+}
+
+.dark-theme .projeto2{
+    background-color: #555;
+}
+
+.dark-theme img{
+    box-shadow: 10px 10px 10px #f5f5f5;
+}
+
+@media (max-width: 480px) {
+    #sobre{
+        flex-direction: column;
+    }
+    div{
+        width: 100%;
+    }
+    img{
+       margin-top: 20px;
+       width:100%;
+    }
+    h2{
+       text-align: center;
+    }
+    .projeto{
+        width: 100%;
+        
+    }
+    .projeto2{
+        width: 100%;
+        
+    }
+}
+    
